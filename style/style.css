@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+.top__content {
+    margin-right: 373px;
+    margin-left: 373px;
+}
+
+.top__menu {
+    margin-top: 40px;
+}
+
+.rigth__menu {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    float: right;
+    padding: 10px;
+}
+
+.navigation {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.carrent {
+    color: #F25822;
+    font-weight: 600;
+}
+
+.home__content {
+    margin-top: 84px;
+    margin-bottom: 100px;
+}
+
+.home__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.home__meta h1 {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.home__meta p {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 20px;
+}
+
+.buttom__meta {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+}
+
+.buttom__meta button {
+    width: 140px;
+    padding: 16px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 56px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.buttom__meta button span {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.buttom__meta a {
+    color: #AAA;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.home__meta__img {
+    flex-shrink: 0;
+}
+
+.brand__logo {
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.brand__logo img {
+    flex-shrink: 0;
+}
