@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -12,19 +12,28 @@ button {
     border: none;
 }
 
+.wrapper {
+    padding-left: calc(50% - 587px);
+    padding-right: calc(50% - 587px);
+}
+
 .top__content {
-    margin-right: 373px;
-    margin-left: 373px;
+    margin-top: 40px;
 }
 
 .top__menu {
-    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
 
 .rigth__menu {
     display: flex;
     align-items: flex-start;
-    gap: 14px;
+    gap: 34px;
     float: right;
     padding: 10px;
 }
@@ -45,22 +54,39 @@ button {
 .home__content {
     margin-top: 84px;
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.home__meta h1 {
+.home__meta {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.home__meta__h1 {
     color: #000;
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+    margin: 0;
 }
 
-.home__meta p {
+.home__meta__p {
     color: #888;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    margin: 0;
     margin-top: 20px;
 }
 
@@ -69,21 +95,22 @@ button {
     display: flex;
     align-items: center;
     gap: 48px;
-    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
 }
 
-.buttom__meta button {
+.buttom__meta__button {
     width: 140px;
     padding: 16px 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     border-radius: 56px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    cursor: pointer;
 }
 
-.buttom__meta button span {
+.buttom__meta__button span {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -91,7 +118,7 @@ button {
     line-height: normal;
 }
 
-.buttom__meta a {
+.buttom__meta__link {
     color: #AAA;
     font-size: 16px;
     font-style: normal;
@@ -106,11 +133,13 @@ button {
 .brand__logo {
     display: flex;
     padding: 100px 0px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 48px;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
-.brand__logo img {
+.logo__image {
     flex-shrink: 0;
 }
