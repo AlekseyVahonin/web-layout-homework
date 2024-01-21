@@ -32,10 +32,9 @@ button {
 
 .rigth__menu {
     display: flex;
-    align-items: flex-start;
-    gap: 34px;
-    float: right;
-    padding: 10px;
+    flex: 0 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .navigation {
