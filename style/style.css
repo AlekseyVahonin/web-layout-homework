@@ -33,8 +33,9 @@ button {
 .rigth__menu {
     display: flex;
     flex-direction: row;
-    gap: 14px;
+    gap: 34px;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .navigation {
