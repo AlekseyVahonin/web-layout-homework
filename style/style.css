@@ -59,6 +59,7 @@ button {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 5%;
 }
 
 .home__meta {
@@ -127,7 +128,7 @@ button {
 }
 
 .home__meta__img {
-    flex: 1;
+    flex-shrink: 0;
 }
 
 .brand__logo {
